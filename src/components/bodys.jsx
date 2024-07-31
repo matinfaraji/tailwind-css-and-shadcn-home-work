@@ -41,7 +41,7 @@ export default function BodyComponents() {
   return (
     <>
       <div>
-        <div className="flex flex-col    ml-[5rem] ">
+        <div className="flex flex-col  mt-10  ml-[5rem] ">
           <span className="text-4xl font-bold ">
             Everything you need to start a website
           </span>
@@ -51,7 +51,7 @@ export default function BodyComponents() {
           </span>
         </div>
         {/* cards */}
-        <div className="flex flex-wrap m-[5] gap-[0.2rem] justify-between p-[8rem] ">
+        <div className="flex flex-wrap m-[5] gap-[0.2rem] justify-between p-[5rem] ">
           {cards.map((item, index) => (
             <div
               key={index}

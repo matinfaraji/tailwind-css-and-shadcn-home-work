@@ -12,9 +12,9 @@ export default function Navbar() {
           <p>Blog</p>
           <p>Contact</p>
         </div>
-        <div className="">
-          <button>Log in</button>
-          <button>Sign up</button>
+        <div className=" flex flex-row justify-between gap-2">
+          <button className="bg-white px-[1rem] py-[0.5rem] rounded-[4px] text-[0.875rem] border-2 ">Log in</button>
+          <button className="bg-black text-white px-[1rem] py-[0.5rem] rounded-[4px] text-[0.875rem]">Sign up</button>
         </div>
       </div>
     </>
